@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+   version="6.0">
+   
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <servlet>
+        <servlet-name>RegistroServlet</servlet-name>
+        <servlet-class>comutador.RegistroServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RegistroServlet</servlet-name>
+        <url-pattern>/RegistroServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsultaServlet</servlet-name>
+        <servlet-class>comutador.ConsultaServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConsultaServlet</servlet-name>
+        <url-pattern>/ConsultaServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

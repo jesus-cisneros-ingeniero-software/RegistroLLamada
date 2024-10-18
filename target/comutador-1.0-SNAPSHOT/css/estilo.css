@@ -1,0 +1,44 @@
+    @font-face {
+            font-family: 'Geomanist-Regular';
+            src: url('../fonts/Geomanist-Regular.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'Geomanist-Bold';
+            src: url('../fonts/Geomanist-Bold.otf') format('opentype');
+        }
+        body {
+            font-family: 'Geomanist-Regular', sans-serif;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            font-family: 'Geomanist-Bold', sans-serif;
+            font-size: 48px;
+            text-align: center;
+            color: #343a40;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            font-size: 18px;
+        }
+        .btn {
+            background-color: #a57f2c;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #8b6922;
+        }
+        .footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .footer p {
+            margin: 0;
+            color: #6c757d;
+        }
